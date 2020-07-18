@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "426957218586",
+    "firebase_url": "https://sekolahimpian-d609f.firebaseio.com",
+    "project_id": "sekolahimpian-d609f",
+    "storage_bucket": "sekolahimpian-d609f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426957218586:android:4c61196f909a91917b02a3",
+        "android_client_info": {
+          "package_name": "com.alkhwarizmi.sekolahimpian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426957218586-fsb75ciui39oic7s89f4gvk10loupacd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAATD6WGtpxPAx3TRQ3OH9VP91N4Gr7m18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426957218586-fsb75ciui39oic7s89f4gvk10loupacd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426957218586:android:f8a1565bd53c1b507b02a3",
+        "android_client_info": {
+          "package_name": "com.qbs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426957218586-fsb75ciui39oic7s89f4gvk10loupacd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAATD6WGtpxPAx3TRQ3OH9VP91N4Gr7m18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426957218586-fsb75ciui39oic7s89f4gvk10loupacd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426957218586:android:59de41f3f74b1cb27b02a3",
+        "android_client_info": {
+          "package_name": "com.sekolahimpian_02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426957218586-fsb75ciui39oic7s89f4gvk10loupacd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAATD6WGtpxPAx3TRQ3OH9VP91N4Gr7m18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426957218586-fsb75ciui39oic7s89f4gvk10loupacd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
