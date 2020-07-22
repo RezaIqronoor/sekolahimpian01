@@ -189,7 +189,7 @@ export default class MainMenu extends Component {
                             <MenuCard
                                 text='Parent Book'
                                 iconName='person-outline'
-                                onPress={() => this.props.navigation.navigate('PDFViewer', {pdf: require('../resources/pdf/ParentBook.pdf')})} />
+                                onPress={() => this.props.navigation.navigate('PDFViewer', {pdf: {uri:'bundle-assets://pdf/ParentBook.pdf', cache: true}})} />
                         </View>
                         <Br height={20} />
                         <View style={{
