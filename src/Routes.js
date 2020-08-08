@@ -8,7 +8,7 @@ import ContactPerson from './containers/ContactPerson'
 import Album from './containers/Album'
 import AlbumImage from './containers/AlbumImage'
 import Absen from './containers/Absen'
-import Tahfizh from './containers/Tahfizh'
+import Tahfidzh from './containers/Tahfidzh'
 import Disease from './containers/Disease'
 import Rapor from './containers/Rapor'
 import PDFViewer from './containers/PDFViewer'
@@ -20,6 +20,14 @@ import CCTV from './containers/CCTV'
 import QBSProject from './containers/QBSProject'
 import Donee from './containers/Donee'
 import ParentBook from './containers/ParentBook'
+import Kesantrian from './containers/Kesantrian'
+import Subjects from './containers/Subjects'
+import CareService from './containers/CareService'
+import MPP from './containers/MPP'
+import IT from './containers/IT'
+import Bahasa from './containers/Bahasa'
+import News from './containers/News'
+import NewsView from './containers/NewsView'
 
 const navigator = createStackNavigator({
     HomeScreen: {
@@ -28,10 +36,40 @@ const navigator = createStackNavigator({
             header: null
         }
     },
+    News: {
+        screen: News
+    },
+    NewsView: {
+        screen: NewsView
+    },
     Login: {
         screen: Login,
         navigationOptions: {
             header: null
+        }
+    },
+    Bahasa: {
+        screen: Bahasa
+    },
+    IT: {
+        screen: IT
+    },
+    MPP: {
+        screen: MPP,
+    },
+    CareService: {
+        screen: CareService,
+    },
+    Subjects: {
+        screen: Subjects,
+        navigationOptions: {
+            title: 'Subjects',
+        }
+    },
+    Kesantrian: {
+        screen: Kesantrian,
+        navigationOptions: {
+            title: 'Kesantrian',
         }
     },
     ChooseChild: {
@@ -116,11 +154,8 @@ const navigator = createStackNavigator({
             title: ''
         }
     },
-    Tahfizh: {
-        screen: Tahfizh,
-        navigationOptions: {
-            title: ''
-        }
+    Tahfidzh: {
+        screen: Tahfidzh,
     },
     Rapor: {
         screen: Rapor,
